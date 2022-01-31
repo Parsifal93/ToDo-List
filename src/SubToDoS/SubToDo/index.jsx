@@ -1,3 +1,4 @@
+import SubToDoApp from "../SubToDoApp"
 
 function SubToDo({ subtodo, togglesubTask, removesubTask,swapSubUp,swapSubDown }) {
     return (
@@ -15,6 +16,11 @@ function SubToDo({ subtodo, togglesubTask, removesubTask,swapSubUp,swapSubDown }
         <button className="sub-btn-up" onClick={() =>swapSubUp(subtodo.id)}>UP</button>
         <button className="sub-btn-down" onClick={() => swapSubDown(subtodo.id)}>DOWN</button>
         </li>
+        <ul>
+        <li>
+        <SubToDoApp />
+        </li>
+        </ul>
         </ul>
     )
 }

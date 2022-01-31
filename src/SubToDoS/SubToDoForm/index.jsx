@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function SubToDoForm({ addsubTask }) {
+function SubToDoForm({ addsubTask, todo }) {
     const [usersubInput, setsubUserInput] = useState('')
 
     const handlesubChange = (e) => {
@@ -29,7 +29,7 @@ function SubToDoForm({ addsubTask }) {
                 onKeyDown={handlesubKeyPress}
                 placeholder="Enter a task..."
             />        
-            <button>ADD</button>
+            <button className="btn-add">ADD</button>
         </form>
         </div>
     )

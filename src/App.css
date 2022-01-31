@@ -4,12 +4,12 @@
 
 .App .item-todo {
   padding: 14px;
-  width: 300px;
+  width: 500px;
   margin: 0 auto;
   text-align: left;
   margin-top: 15px;
   
-  border: none;
+  border: 1px solid red;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -38,14 +38,14 @@
 }
 
 .App .btn-up{
-  margin-left: 300px;
-  margin-top: -15px;
+  margin-left: 261px;
+  margin-top: 25px;
   padding: 19px;
 }
 
 .App .btn-down {
-margin-left:300px;
-margin-top: -10px;
+margin-left:270px;
+margin-bottom: -30px;
 }
 
 .App .item-todo .item-delete {
@@ -54,8 +54,8 @@ margin-top: -10px;
   float: right;
   font-size: 22px;
   position: relative;
-  left: -4px;
-  bottom: 5px;
+  left: -110px;
+  bottom: -70px;
 }
 
 .strike {

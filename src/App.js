@@ -11,7 +11,8 @@ function App() {
       const newItem = {
         id: Math.random().toString(36).substr(2,9),
         task: userInput,
-        complete: false
+        complete: false,
+        subtask:null
       }
       setTodos([...todos, newItem])
     }
